@@ -1,0 +1,36 @@
+﻿@model RoleViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row justify-content-center align-content-center mt-3">
+    <h1 class="col-8 my-4">Edit Role</h1>
+    <form method="post" asp-controller="Role" asp-action="Edit" class="col-8">
+        <div class="alert-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group mb-3">
+            <label class="form-label" asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <h3>Assign User To Roles</h3>
+            @for (int i = 0; i < Model.User.Count; i++)
+                {
+                    <div>
+                        <input type="hidden" asp-for="User[i].Id" />
+                        <input type="hidden" asp-for="User[i].Name" />
+                        <input asp-for="User[i].IsSelected" class="form-check-input" />
+                        <label asp-for="User[i].IsSelected" class="form-check-label">@Model.User[i].Name</label>
+                    </div>
+                }
+        </div>
+        <div class="mt-4 m-auto">
+            <input class="btn btn-primary" type="submit" value="Create" />
+            <a asp-controller="Role" asp-action="Index" class="btn btn-outline-dark">Back to list</a>
+        </div>
+    </form>
+</div>
+
+@* @section ValidationScripts {
+    <partial name="_ValidationScriptsPartial" />
+} *@

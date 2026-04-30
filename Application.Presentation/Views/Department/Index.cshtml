@@ -1,0 +1,111 @@
+﻿@using Application.BLL.DTOS.Department
+@model IEnumerable<DepartmentDto>
+@{
+    ViewData["Title"] = "Index";
+}
+
+@* <div class="alert alert-success">
+    @ViewData["Message"]
+</div>
+<div class="alert alert-danger">
+    @ViewBag.Message02
+</div> *@
+
+@if (!string.IsNullOrEmpty(TempData["Message"] as string))
+{
+    <div aria-live="polite" aria-atomic="true" class="toast-container position-fixed p-3" style="bottom: 25px; right:25px; z-index: 100;">
+        <div class="toast fade show " role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto text-success">Success!!</strong>
+                <small>Just now</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                @TempData["Message"]
+            </div>
+        </div>
+    </div>
+}
+
+
+<h1 class="my-5">All Departments</h1>
+<a class="btn btn-primary my-3" asp-controller="Department" asp-action="Create">Create New Department</a>
+
+<div class="m-2 pb-5">
+    <form asp-action="index" class="row offset-2" method="get">
+        <div class="col-8">
+            <input class="form-control" type="text" name="DepartmentSearchName" placeholder="Search Department By Name" />
+        </div>
+        <div class="col-4">
+            <input type="submit" class="btn btn-outline-success" value="Search" />
+
+        </div>
+    </form>
+
+</div>
+
+@if (Model.Any())
+{
+    <table class="table table-hover table-striped px-3">
+        <thead class="text-center">
+            <tr>
+                <th scope="col">@Html.DisplayNameFor(d => d.Code)</th>
+                <th scope="col">@Html.DisplayNameFor(d => d.Name)</th>
+                <th scope="col">@Html.DisplayNameFor(d => d.Description)</th>
+                <th scope="col">@Html.DisplayNameFor(d => d.DateOfCreation)</th>
+                <th scope="col">Details</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Delete</th>
+
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            @foreach(var department in Model)
+            {
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal-@department.DeptId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Delete Department</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Are You Sure To Delete This Department?
+                            </div>
+                            <div class="modal-footer">
+                                <form method="post" asp-action="Delete" asp-route-id="@department.DeptId">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <tr>
+                    <td>@department.Code</td>
+                    <td>@department.Name</td>
+                    <td>@department.Description</td>
+                    <td>@department.DateOfCreation</td>
+                    @* Render Partial View (ButtonPartialView)*@
+                    <partial name="_ButtonPartialView" model="department.DeptId.ToString()"></partial>
+
+
+                    @* <td><a class="btn btn-danger" asp-action="Delete" asp-route-id="@department.DeptId"><i class="fas fa-eye"></i> Delete</a></td> *@
+                    <td>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal-@department.DeptId">
+                            <i class="fas fa-eye"></i> Delete
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    // No Department Found
+    <div class="alert alert-info">
+        <h3>No Department Found !!</h3>
+    </div>
+}

@@ -1,0 +1,9 @@
+﻿global using Application.DAL.Data.Models;
+global using Microsoft.EntityFrameworkCore;
+global using System.Reflection;
+global using Application.DAL.Data.Contexts;
+global using Application.DAL.Data.Models.EmployeeModul;
+global using Application.DAL.Data.Repositories.Interfaces;
+global using Application.DAL.Data.Models.Shared;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Application.DAL.Data.Models.DepartmentModul;
