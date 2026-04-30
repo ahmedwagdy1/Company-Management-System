@@ -1,0 +1,16 @@
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\bin\Debug\net8.0\Application.BLL.deps.json
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\bin\Debug\net8.0\Application.BLL.dll
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\bin\Debug\net8.0\Application.BLL.pdb
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\bin\Debug\net8.0\Application.DAL.dll
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\bin\Debug\net8.0\Application.DAL.pdb
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\obj\Debug\net8.0\Application.BLL.csproj.AssemblyReference.cache
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\obj\Debug\net8.0\Application.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\obj\Debug\net8.0\Application.BLL.AssemblyInfoInputs.cache
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\obj\Debug\net8.0\Application.BLL.AssemblyInfo.cs
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\obj\Debug\net8.0\Application.BLL.csproj.CoreCompileInputs.cache
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\obj\Debug\net8.0\Application.BLL.sourcelink.json
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\obj\Debug\net8.0\Applicat.92487692.Up2Date
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\obj\Debug\net8.0\Application.BLL.dll
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\obj\Debug\net8.0\refint\Application.BLL.dll
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\obj\Debug\net8.0\Application.BLL.pdb
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.BLL\obj\Debug\net8.0\ref\Application.BLL.dll

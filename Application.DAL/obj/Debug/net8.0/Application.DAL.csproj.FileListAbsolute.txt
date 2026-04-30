@@ -1,0 +1,13 @@
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\bin\Debug\net8.0\Application.DAL.deps.json
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\bin\Debug\net8.0\Application.DAL.dll
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\bin\Debug\net8.0\Application.DAL.pdb
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\obj\Debug\net8.0\Application.DAL.csproj.AssemblyReference.cache
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\obj\Debug\net8.0\Application.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\obj\Debug\net8.0\Application.DAL.AssemblyInfoInputs.cache
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\obj\Debug\net8.0\Application.DAL.AssemblyInfo.cs
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\obj\Debug\net8.0\Application.DAL.csproj.CoreCompileInputs.cache
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\obj\Debug\net8.0\Application.DAL.sourcelink.json
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\obj\Debug\net8.0\Application.DAL.dll
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\obj\Debug\net8.0\refint\Application.DAL.dll
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\obj\Debug\net8.0\Application.DAL.pdb
+C:\Users\kh\OneDrive\Desktop\Route Course\back end .net\Revesion (mariam shindy)\MVC\MVC Project\Application.Presentation.Solution\Application.DAL\obj\Debug\net8.0\ref\Application.DAL.dll
