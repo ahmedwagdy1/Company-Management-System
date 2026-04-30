@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kh\\OneDrive\\Desktop\\Route Course\\back end .net\\Revesion (mariam shindy)\\MVC\\MVC Project\\Application.Presentation.Solution\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51F4D1DA-844E-404F-9783-4C8E62F45CED}|Application.DAL\\Application.DAL.csproj|c:\\users\\kh\\onedrive\\desktop\\route course\\back end .net\\revesion (mariam shindy)\\mvc\\mvc project\\application.presentation.solution\\application.dal\\data\\models\\departmentmodule\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51F4D1DA-844E-404F-9783-4C8E62F45CED}|Application.DAL\\Application.DAL.csproj|solutionrelative:application.dal\\data\\models\\departmentmodule\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +39,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cs",
+              "DocumentMoniker": "C:\\Users\\kh\\OneDrive\\Desktop\\Route Course\\back end .net\\Revesion (mariam shindy)\\MVC\\MVC Project\\Application.Presentation.Solution\\Application.DAL\\Data\\Models\\DepartmentModule\\test.cs",
+              "RelativeDocumentMoniker": "Application.DAL\\Data\\Models\\DepartmentModule\\test.cs",
+              "ToolTip": "C:\\Users\\kh\\OneDrive\\Desktop\\Route Course\\back end .net\\Revesion (mariam shindy)\\MVC\\MVC Project\\Application.Presentation.Solution\\Application.DAL\\Data\\Models\\DepartmentModule\\test.cs",
+              "RelativeToolTip": "Application.DAL\\Data\\Models\\DepartmentModule\\test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:02:48.977Z",
+              "EditorCaption": ""
             }
           ]
         }
