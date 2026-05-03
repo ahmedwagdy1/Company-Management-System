@@ -28,7 +28,7 @@ designed to streamline and manage company operations efficiently.
 ---
 ## 📸 Screenshots
 
-![Dashboard](Screenshot%202026-05-03%20040035.png)
-![Login](Screenshot%202026-05-03%20040018.png)
-![Departments](Screenshot%202026-05-03%20040051.png)
-![Employees](Screenshot%202026-05-03%20040117.png)
+![Dashboard](Screenshot%202026-05-03%20040018.png)
+![Employees](Screenshot%202026-05-03%20040035.png)
+![Details](Screenshot%202026-05-03%20040051.png)
+![More](Screenshot%202026-05-03%20040117.png)
