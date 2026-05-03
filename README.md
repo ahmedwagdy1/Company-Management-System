@@ -26,3 +26,9 @@ designed to streamline and manage company operations efficiently.
 | Frontend   | Razor Views, Bootstrap   |
 
 ---
+## 📸 Screenshots
+
+![Dashboard](Screenshot 2026-05-03 040051)
+![Login](Screenshot 2026-05-03 040117)
+![Departments](Screenshot 2026-05-03 040035)
+![Employees](Screenshot 2026-05-03 040018)
